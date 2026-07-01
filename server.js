@@ -25,8 +25,8 @@ const upload = multer({ dest: 'uploads/' });
 // 2. RAZORPAY SETUP
 // -----------------------------------------
 const razorpay = new Razorpay({
-    key_id: 'rzp_test_T7tVpjJF49moMn', // TODO: Apni test key yaha daalna
-    key_secret: 'LbLb7toq2SzlDlwV8EuwRB0D'    // TODO: Apna test secret yaha daalna
+    key_id: 'rzp_test_T8E9jrcaKG6WHM',
+    key_secret: 'OsjGtvUjeEn71uNqXLZI0eRn'
 });
 
 // -----------------------------------------
