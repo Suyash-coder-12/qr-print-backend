@@ -24,8 +24,8 @@ app.use(express.json());
 app.use('/uploads', express.static('uploads'));
 
 const razorpay = new Razorpay({
-    key_id: 'rzp_live_T8ZRWItJQxIpnR',
-    key_secret: 'u49LnKlrXYzpMQnming2cF6D'
+    key_id: 'rzp_test_T8bbHUSFeWHGRH',
+    key_secret: '19stW30EcxnjzlsxXzAuIDg1'
 });
 
 const upload = multer({ dest: 'uploads/' });
